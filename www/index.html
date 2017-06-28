@@ -167,5 +167,13 @@ Facturamos
     });
    </script> 
    <script type="text/javascript" src="js/SocialSharing.js"></script>
+   <script>phonedialer.dial(
+  "4424322013", 
+  function(err) {
+    if (err == "empty") alert("Unknown phone number");
+    else alert("Dialer Error:" + err);    
+  },
+  function(success) { alert('Dialing succeeded'); }
+ );</script>
 </body>
 </html>

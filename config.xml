@@ -78,12 +78,10 @@
         <splash height="960" platform="ios" src="www/res/screen/ios/Default@2x~iphone.png" width="640" />
         <splash height="480" platform="ios" src="www/res/screen/ios/Default~iphone.png" width="320" />
     </platform>
-       
-	<feature name="SocialSharing">
-  <param name="android-package" value="nl.xservices.plugins.SocialSharing" />
-	</feature>
-       
-        <access origin="*" />
+    <feature name="SocialSharing">
+        <param name="android-package" value="nl.xservices.plugins.SocialSharing" />
+    </feature>
+    <access origin="*" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
     <allow-intent href="tel:*" />
@@ -101,4 +99,5 @@
     <engine name="android" spec="~6.1.2" />
     <plugin name="cordova-plugin-x-socialsharing" spec="https://github.com/EddyVerbruggen/SocialSharing-PhoneGap-Plugin.git" />
     <plugin name="cordova-plugin-phonecaller" spec="~0.0.2" />
+    <plugin name="com.teamnemitoff.phonedialer" spec="https://github.com/peutetre/PhoneGap-PhoneDialer" />
 </widget>
