@@ -98,6 +98,5 @@
     </platform>
     <engine name="android" spec="~6.1.2" />
     <plugin name="cordova-plugin-x-socialsharing" spec="https://github.com/EddyVerbruggen/SocialSharing-PhoneGap-Plugin.git" />
-    <plugin name="cordova-plugin-phonecaller" spec="~0.0.2" />
-    <plugin name="com.teamnemitoff.phonedialer" spec="https://github.com/peutetre/PhoneGap-PhoneDialer" />
+       <plugin name="com.teamnemitoff.phonedialer" spec="https://github.com/peutetre/PhoneGap-PhoneDialer" />
 </widget>

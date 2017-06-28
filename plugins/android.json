@@ -67,9 +67,6 @@
         "cordova-plugin-x-socialsharing": {
             "PACKAGE_NAME": "com.phonegap.helloworld"
         },
-        "cordova-plugin-phonecaller": {
-            "PACKAGE_NAME": "com.phonegap.helloworld"
-        },
         "com.teamnemitoff.phonedialer": {
             "PACKAGE_NAME": "com.phonegap.helloworld"
         }

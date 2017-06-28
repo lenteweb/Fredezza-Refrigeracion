@@ -102,9 +102,6 @@
     <feature name="SocialSharing">
         <param name="android-package" value="nl.xservices.plugins.SocialSharing" />
     </feature>
-    <feature name="PhoneCaller">
-        <param name="android-package" value="io.codebakery.phonecaller.PhoneCaller" />
-    </feature>
     <feature name="PhoneDialer">
         <param name="android-package" value="com.teamnemitoff.phonedialer.PhoneDialer" />
     </feature>

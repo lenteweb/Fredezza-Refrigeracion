@@ -184,14 +184,6 @@
         "is_top_level": false,
         "variables": {}
     },
-    "cordova-plugin-phonecaller": {
-        "source": {
-            "type": "registry",
-            "id": "cordova-plugin-phonecaller"
-        },
-        "is_top_level": true,
-        "variables": {}
-    },
     "com.teamnemitoff.phonedialer": {
         "source": {
             "type": "git",

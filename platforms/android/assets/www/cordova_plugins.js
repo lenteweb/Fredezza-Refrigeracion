@@ -533,14 +533,6 @@ module.exports = [
         ]
     },
     {
-        "id": "cordova-plugin-phonecaller.PhoneCaller",
-        "file": "plugins/cordova-plugin-phonecaller/www/phonecaller.js",
-        "pluginId": "cordova-plugin-phonecaller",
-        "clobbers": [
-            "PhoneCaller"
-        ]
-    },
-    {
         "id": "com.teamnemitoff.phonedialer.phonedialer",
         "file": "plugins/com.teamnemitoff.phonedialer/www/dialer.js",
         "pluginId": "com.teamnemitoff.phonedialer",
@@ -575,7 +567,6 @@ module.exports.metadata =
     "cordova-plugin-whitelist": "1.2.2",
     "es6-promise-plugin": "4.1.0",
     "cordova-plugin-x-socialsharing": "5.1.8",
-    "cordova-plugin-phonecaller": "0.0.2",
     "com.teamnemitoff.phonedialer": "0.3.1"
 };
 // BOTTOM OF METADATA
