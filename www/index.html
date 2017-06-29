@@ -133,7 +133,7 @@ Facturamos
 		<div  class="encabeza"><strong>Síguenos</strong></div>
 	<div style="text-align: center"><a href="#content2"><img src="img/Icono_Facebook.png" width="20%" height="" alt=""/></a></div>
 		<div  class="encabeza"><strong>Comparte Nuestra App</strong></div>
-	<div style="text-align: center"><button onclick="window.plugins.socialsharing.shareViaWhatsApp('Message via WhatsApp', null /* img */, null /* url */, function() {console.log('share ok')}, function(errormsg){alert(errormsg)})">msg via WhatsApp (with errcallback)</button>
+	<div style="text-align: center"><a href="whatsapp://send?text=Hola Mundo" id="send_message">Enviar mensaje</a>
 	</div>
 	<div data-role="footer" data-position="fixed" data-id="pie_fijo">
 		<div data-role="navbar">
@@ -175,5 +175,21 @@ Facturamos
   },
   function(success) { alert('Dialing succeeded'); }
  );</script>
+ <script>
+	window.onload = send_whatsapp;
+
+function send_whatsapp(){
+
+  document.querySelector('#send_message').addEventListener('click',function(){
+
+    var url = "whatsapp://send?text="
+    var message = document.querySelector('#mensaje').value;
+    window.open(url+encodeURIComponent(message));
+    
+  });
+
+};
+	
+	</script>
 </body>
 </html>
